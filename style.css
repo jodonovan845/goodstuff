@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mainheader {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
