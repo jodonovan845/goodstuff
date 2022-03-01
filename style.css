@@ -57,11 +57,11 @@ a, .subtext {
     gap: 20px;
 }
 
-.button1 {
-    background-color: #3882f6;
-    color: #F9FAF8;
+button {
     border-radius: 6px;
     padding: 5px 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
 }
 
 .info {
@@ -84,12 +84,13 @@ a, .subtext {
 
 .kiedis,
 .author {
-    width: 500px;
+    width: 600px;
 }
 
 .kiedis {
-    font-size: 24px;
+    font-size: 36px;
     margin-bottom: 0px;
+    font-style: italic;
 }
 
 .author {
@@ -97,3 +98,33 @@ a, .subtext {
     margin-right: 80px;
     margin-top: 10px;
 }
+
+.callcontainer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+
+.bluebox {
+    background-color: #3882f6;
+    padding: 25px 60px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 6px;
+    color: #E5E7EB;;
+    padding: 50px 100px;
+    gap: 50px;
+}
+
+.button2 {
+    border-color: #E5E7EB;
+}
+
+.cta,
+.cta-desc {
+    margin: 0px;
+}
+
+
+
