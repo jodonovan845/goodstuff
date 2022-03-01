@@ -68,8 +68,32 @@ a, .subtext {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 350px;
 }
 
 .infoimg {
     width: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.kiedis,
+.author {
+    width: 500px;
+}
+
+.kiedis {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.author {
+    text-align: right;
+    margin-right: 80px;
+    margin-top: 10px;
 }
