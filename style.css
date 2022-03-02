@@ -6,6 +6,7 @@ body {
 
 .header {
     background-color: #1f2937;
+    
 }
 
 .topheader {
@@ -37,13 +38,13 @@ body {
 
 img {
     width: 450px;
-    height: 200px;
-    
+    height: 200px; 
 }
 
 a, .subtext {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .logo {
@@ -71,7 +72,17 @@ button {
     height: 350px;
 }
 
+.infomain {
+    display: flex;
+    gap: 20px;
+    margin: 0px 150px;
+}
+
 .infoimg {
+    width: 200px;
+}
+
+.imgtext {
     width: 200px;
 }
 
@@ -110,12 +121,14 @@ button {
     background-color: #3882f6;
     padding: 25px 60px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 6px;
     color: #E5E7EB;;
-    padding: 50px 100px;
+    padding: 30px 100px;
     gap: 50px;
 }
+
+
 
 .button2 {
     border-color: #E5E7EB;
